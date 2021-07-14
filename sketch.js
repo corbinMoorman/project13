@@ -72,7 +72,7 @@ function draw() {
 
   
    drawSprites();
-   textSize(20)
+   textSize(15)
   text("score:"+score,350,20);
   }
 
