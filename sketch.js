@@ -1,5 +1,6 @@
 var bow , arrow,  background;
 var bowImage, arrowImage, green_balloonImage, red_balloonImage, pink_balloonImage ,blue_balloonImage, backgroundImage;
+var score = 0
 
 function preload(){
   
@@ -33,6 +34,8 @@ function setup() {
 
 function draw() {
  background(0);
+  textSize(20)
+  text("score:"+score,350,20);
   // moving ground
     scene.velocityX = -3 
 
@@ -64,6 +67,7 @@ function draw() {
     
      }
 
+    
     } 
   
 
