@@ -34,8 +34,7 @@ function setup() {
 
 function draw() {
  background(0);
-  textSize(20)
-  text("score:"+score,350,20);
+ 
   // moving ground
     scene.velocityX = -3 
 
@@ -73,6 +72,8 @@ function draw() {
 
   
    drawSprites();
+   textSize(20)
+  text("score:"+score,350,20);
   }
 
 
